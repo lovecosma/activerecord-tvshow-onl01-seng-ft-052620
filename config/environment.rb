@@ -18,4 +18,5 @@ if ENV["ACTIVE_RECORD_ENV"] == "test"
 end
 
 sql = <<-SQL
-SQWL
+
+SQL
