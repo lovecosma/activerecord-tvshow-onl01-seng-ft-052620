@@ -1,6 +1,6 @@
 class Show < ActiveRecord::Base
 
-def self.class.highest_rating
+def selfhighest_rating
   self.class
 end
 
