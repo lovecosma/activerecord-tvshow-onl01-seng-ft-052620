@@ -26,3 +26,5 @@ CREATE TABLE IF NOT EXISTS tvshows (
   rating TEXT
   )
 SQL
+
+ActiveRecord::Base.connection.execute(sql)
