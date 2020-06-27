@@ -13,7 +13,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.least_popular_show
-    binding.pry
+      self.where(:rating == self.maximum(:rating)).take
   end
 
 
