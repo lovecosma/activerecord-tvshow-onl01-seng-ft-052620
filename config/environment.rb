@@ -21,7 +21,7 @@ sql = <<-SQL
 CREATE TABLE IF NOT EXISTS tvshows (
   id INTEGER PRIMARY KEY,
   name TEXT,
-  genre TEXT,
+  day TEXT,
   age INTEGER,
   hometown TEXT
   )
