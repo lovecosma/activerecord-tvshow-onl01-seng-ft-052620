@@ -1,7 +1,7 @@
 class Show < ActiveRecord::Base
 
   def slef.highest_rating
-    slef.class.maximum(:rating)
+    self.class.maximum(:rating)
   end
 
 
