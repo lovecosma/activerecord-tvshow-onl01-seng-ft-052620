@@ -3,7 +3,7 @@ class CreateShows < ActiveRecord::Migration[5.2]
     create_table tvshows do |t|
       t.string :name
       t.string :day
-      t.string
+      t.string :network
       t.integer
     end
   end
