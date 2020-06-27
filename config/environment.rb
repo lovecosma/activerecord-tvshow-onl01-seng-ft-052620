@@ -10,7 +10,7 @@ Dir[File.join(File.dirname(__FILE__), "../lib/support", "*.rb")].each {|f| requi
 
 DB = ActiveRecord::Base.establish_connection({
   adapter: 'sqlite3',
-  database: 'db/tvshows.db'
+  database: 'db/tvshows.sqlit'
 })
 
 if ENV["ACTIVE_RECORD_ENV"] == "test"
