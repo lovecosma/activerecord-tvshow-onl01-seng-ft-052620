@@ -1,3 +1,3 @@
 def highest_rating
-  Movie.where()
+  Movie.where(rating: )
 end
