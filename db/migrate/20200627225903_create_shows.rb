@@ -4,7 +4,6 @@ class CreateShows < ActiveRecord::Migration[5.2]
       t.string
       t.string
       t.string
-      t.string
       t.integer
     end
   end
