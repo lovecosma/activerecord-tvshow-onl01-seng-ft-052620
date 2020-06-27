@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
     self.maximum(:rating)
   end
 
-  def selfmost_popular_show
+  def self.most_popular_show
     self.where(self.maximum.average(:ratings))
   end
 
