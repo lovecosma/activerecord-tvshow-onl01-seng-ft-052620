@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS tvshows (
   id INTEGER PRIMARY KEY,
   name TEXT,
   day TEXT,
-  age INTEGER,
+  network INTEGER,
   hometown TEXT
   )
 SQL
