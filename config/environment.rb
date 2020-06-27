@@ -18,7 +18,7 @@ if ENV["ACTIVE_RECORD_ENV"] == "test"
 end
 
 sql = <<-SQL
-CREATE TABLE IF NOT EXISTS tvshows (
+CREATE TABLE IF NOT EXISTS shows (
   id INTEGER PRIMARY KEY,
   name TEXT,
   day TEXT,
