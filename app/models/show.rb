@@ -5,7 +5,8 @@ class Show < ActiveRecord::Base
   end
 
   def most_popular_show
-  end 
+    
+  end
 
 
 end
