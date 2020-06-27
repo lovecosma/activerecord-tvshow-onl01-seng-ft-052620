@@ -9,7 +9,7 @@ class Show < ActiveRecord::Base
   end
 
   def self.lowest_rating
-    slef.where(:rating == self.minimum(:rating)).take
+    self.where(:rating == self.minimum(:rating)).take
   end
 
 
