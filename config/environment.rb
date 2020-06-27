@@ -23,6 +23,6 @@ CREATE TABLE IF NOT EXISTS tvshows (
   name TEXT,
   day TEXT,
   network INTEGER,
-  hometown TEXT
+  rating TEXT
   )
 SQL
