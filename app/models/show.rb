@@ -13,6 +13,8 @@ class Show < ActiveRecord::Base
   end
 
   def self.least_popular_show
+    self.where(:rating == self.maximum(:rating)).take
+  end
 
 
 end
