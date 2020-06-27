@@ -1,7 +1,7 @@
 class Show < ActiveRecord::Base
 
-def selfhighest_rating
-  self.class
+def self.highest_rating
+  self.class.
 end
 
 
