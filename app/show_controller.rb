@@ -1,3 +1,3 @@
 def highest_rating
-  Movie.maximum(rating:)
+  Movie.maximum(:rating)
 end
